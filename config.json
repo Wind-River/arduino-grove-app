@@ -3,6 +3,7 @@
      "config.json: Arduino Gadgets, an example using a VxWorks 7 Arduino style API",
      "Modification History:",
      "04May16,pty   Initial version"
+     "03Jun16,maf   Changes for ga"
      ],
   "icon": "images/workbench-icon_20x20.png",
   "name": "Arduino Gadgets",
@@ -18,11 +19,11 @@
   "visibility": "local",
   "executable": "bin/%projname%",
   "type": "application",
-  "key": "vxworks7-arduino-grove",
+  "key": "vxworks-arduino-grove-app",
   "project_data": {
         "init_clone": 
-        { "fetch": { "scm":"git", "url":"https://github.com/Wind-River/arduino-grove-example-1.git", "branch":"master" } },
-        "arduino-lite": 
-        { "fetch": { "scm":"git", "url":"https://github.com/Wind-River/vxworks7-arduino-lite.git", "branch":"master" } }
+        { "fetch": { "scm":"git", "url":"https://github.com/Wind-River/arduino-grove-app.git", "branch":"master" } },
+        "arduino-lite-lib": 
+        { "fetch": { "scm":"git", "url":"https://github.com/Wind-River/vxworks-arduino-lite-lib.git", "branch":"master" } }
   }  
 }
