@@ -2,7 +2,7 @@
   "_comment": [
      "config.json: Arduino Gadgets, an example using a VxWorks 7 Arduino style API",
      "Modification History:",
-     "04May16,pty   Initial version"
+     "04May16,pty   Initial version",
      "03Jun16,maf   Changes for ga"
      ],
   "icon": "images/workbench-icon_20x20.png",
